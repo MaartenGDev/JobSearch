@@ -72,7 +72,11 @@ class Client
 
             $url = $this->getUrl($page, $study, $location);
 
-            $response = $this->client->request('GET', $url);
+            $response = $this->client->request('GET', $url, [
+                'headers' => [
+                    'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+                ]
+            ]);
 
             $response = $response->getBody();
 

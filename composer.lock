@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "faae8252bd33b2880f548b76c211cf5c",
-    "content-hash": "7a2bb35088f0ebe139da5355b2070095",
+    "hash": "ed194c7c3bae61252a1fca4effcb8e58",
+    "content-hash": "740e9e9369cef87a7e5fce5d9ec2f792",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -156,16 +156,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427"
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/3f808fba627f2c5b69e2501217bf31af349c1427",
-                "reference": "3f808fba627f2c5b69e2501217bf31af349c1427",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +214,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-15 17:22:37"
+            "time": "2016-10-08 15:01:37"
         },
         {
             "name": "guzzlehttp/promises",
@@ -327,20 +327,19 @@
         },
         {
             "name": "maartengdev/cache-drivers",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MaartenGDev/CacheDrivers.git",
-                "reference": "da77db2b8bdfe8843599c671efc3c4203d028f33"
+                "reference": "0628517707effbfeac45cbf0b414c6904842c3fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MaartenGDev/CacheDrivers/zipball/da77db2b8bdfe8843599c671efc3c4203d028f33",
-                "reference": "da77db2b8bdfe8843599c671efc3c4203d028f33",
+                "url": "https://api.github.com/repos/MaartenGDev/CacheDrivers/zipball/0628517707effbfeac45cbf0b414c6904842c3fe",
+                "reference": "0628517707effbfeac45cbf0b414c6904842c3fe",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^6.2",
                 "phpunit/phpunit": "^5.5",
                 "satooshi/php-coveralls": "^1.0"
             },
@@ -355,7 +354,7 @@
                 "MIT"
             ],
             "description": "Cache all data using different drivers",
-            "time": "2016-10-01 19:34:24"
+            "time": "2016-10-22 13:21:35"
         },
         {
             "name": "myclabs/deep-copy",
