@@ -1,0 +1,20 @@
+{
+	"name": "maarten/jobsearch",
+	"authors": [
+		{
+			"name": "MaartenGDev"
+		}
+	],
+	"require": {
+		"guzzlehttp/guzzle": "^6.2",
+		"symfony/var-dumper": "^3.1",
+		"silex/silex": "~2.0",
+		"vlucas/phpdotenv": "^2.4",
+		"maartengdev/cache-drivers": "^1.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		}
+	}
+}
